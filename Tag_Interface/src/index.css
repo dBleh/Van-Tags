@@ -1,0 +1,241 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f5f5f5;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+li{
+  list-style-type: none;
+}
+.queuedBox{
+  text-align: center;
+  position: absolute;
+  top: 4vh;
+  left:0vw;
+  width:auto;
+  height: auto;
+  background-color:  #f5f5f5;
+  /*border: 1px solid black;*/
+}
+
+.mainBox{
+  position: relative;
+  background-color: #f5f5f5;
+  width: 28vw;
+  height: 40vh;
+  top: 3vh;
+  left: 1.2vw;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 3p5;
+  
+}
+.itemName{
+  position: absolute;
+  font-size: 1vw;
+  line-height: 1.2vw;
+  width: 10vw;
+  margin-top: -1.5vh;
+  left: -0vw;
+  background-color: aquamarine;
+  
+}
+.sizeLabel{
+  position: absolute;
+  width: 4vw;
+  left:0vw;
+  top: 6vh;
+  font-size: 12px;
+}
+.size{
+  position: absolute;
+  width: 22vw;
+  left:.2vw;
+  top: 1.8vh;
+  border-bottom:1px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 2px;
+}
+.bulbsLabel{
+  position: absolute;
+  width: 20vw;
+  left:-8vw;
+  top: 10.5vh;
+  font-size: 12px;
+}
+.bulbs{
+  position: absolute;
+  width: 22vw;
+  left:8.2vw;
+  top: 1.8vh;
+  border-bottom:1px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 2px;
+}
+  
+
+.detailsFirstLabel{
+  position: absolute;
+  width: 5vw;
+  left: -.6vw;
+  top: 15.5vh;
+  font-size: 12px;
+}
+.detailsSecondLabel{
+  position: absolute;
+  width: 5vw;
+  left: -.6vw;
+  top: 20.5vh;
+  font-size: 12px;
+}
+.detailsThirdLabel{
+  position: absolute;
+  width: 5vw;
+  left: -.6vw;
+  top: 25.5vh;
+  font-size: 12px;
+}
+.details{
+  position: absolute;
+  width: 22vw;
+  left: .8vw;
+  top: 2.0vh;
+  border-bottom:1px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 2px;
+}
+.priceLabel{
+  position: absolute;
+  width: 20vw;
+  left:-8.5vw;
+  top: 30vh;
+  font-size: 12px;
+}
+.price{
+  position: absolute;
+  width: 11vw;
+  left:8.7vw;
+  top: 2.2vh;
+  border-bottom:1px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 2px;
+}
+.vertical-line {
+  position: absolute;
+  height: 52%;
+  width: .01vw;
+  background-color: #EEA47FFF;
+  left: 165px;
+  top: 8vh;
+  z-index: 0;
+}
+
+.removeItem{
+  position: absolute;
+  border-radius: 5px;
+  border-color: #f5f5f5;
+  background-color: #f5f5f5;
+  box-shadow: none;
+  top: 36vh;
+  left: 11.6vw;
+  width: auto;
+  height: 2vh;
+  font-size: 10px;
+  line-height: 1vh; 
+}
+
+.changePdf{
+  position: relative;
+  width: auto;
+  height: 3vh;
+  font-size: 10px;
+  top: 15vh;
+  margin-left: 24vw;
+  background-color: rgba(127, 179, 238, 0.212);
+  border-radius: 6px;
+  font-size: 11px;
+  text-align: center;
+  line-height: 2.4vh;
+  
+  display: flex;
+  justify-content: center;
+}
+
+
+.innerBox{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  position: relative;
+  
+  
+  width: 40vw;
+  height: auto;
+}
+.searchBox{
+  text-align: center;
+  position: absolute;
+  background: none;
+  top: 0vh;
+  width: 10vw;
+  height: auto;
+  left: 8vw;
+  z-index: 1;
+  
+  
+}
+.searchLabel{
+  font-size: 12px;
+}
+.searchBoxInput{
+  
+  width: 8vw;
+  border-bottom:1px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 2px;
+}
+
+.viewer{
+  position: absolute;
+  top:2vh;
+  right:0vw;
+  height: 96vh;
+  width:40vw;
+
+}
+.pdfDumpForm{
+  text-align: center;
+  position: absolute;
+  background-color: #f5f5f5;
+  top: 90vh;
+  width: 20vw;
+  height: auto;
+  left: 2vw;
+  border: 1px solid rgb(204, 204, 204);
+}
+.previewButton{
+  position: absolute;
+  top: 87vh;
+  left: 28vw;
+  background-color: #EEA47FFF;
+  border-radius: 4px;
+}
